@@ -1,2 +1,2 @@
-#!/bin/basin/bash
+#!/bin/bash
 echo "$USER"
