@@ -1,2 +1,2 @@
-#!/bin/bash
-whoami
+##!/bin/bash[D[D[D[D[D[D[D[D[D[D[D[D[[[C[C[C[C[C[C[C[C[C[C[C[C[D[#!/bin/bash
+echo "$USER"
