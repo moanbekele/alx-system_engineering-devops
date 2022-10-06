@@ -1,2 +1,2 @@
-[A[B#!/bin/bash
-whoami
+#!/bin/bash 
+whoami 
