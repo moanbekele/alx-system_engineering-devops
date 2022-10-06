@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "$USER"
+[A[B#!/bin/bash
+whoami
