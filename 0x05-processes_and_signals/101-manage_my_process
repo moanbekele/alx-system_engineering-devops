@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Can take three args 'start', 'stop', 'restart'
+#+  "Usage: manage_my_process {start|stop|restart}"
 if [ "$1" == "start" ]
 then
   ./manage_my_process &
