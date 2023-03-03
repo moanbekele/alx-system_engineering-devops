@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Pings Ip receved in 5 iterations
 
 if [ "$#" -eq 0 ]
 then
