@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# generates MySQL dump of all databases compressing and backup my database
+# Other Option of getting day, month and year below
+# day=$(date +"%d")
+# month=$(date +"%m")
+# year=$(date +"%Y")
+# file_name="$day-$month-$year.tar.gz"
+# tar -czvf "$file_name" backup.sql
+
+
+mysqldump -u root -p"$1" --all-databases > backup.sql
+tar -czvf "$(date '+%d-%m-%Y').tar.gz" backup.sql
+
